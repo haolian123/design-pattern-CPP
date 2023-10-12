@@ -1,3 +1,9 @@
+/*
+简单工厂模式（Simple Factory Pattern）是一种创建型设计模式，它提供一个单一的工厂类，
+根据客户端的请求，动态创建不同类型的对象，隐藏了对象的创建逻辑。
+这种模式使得客户端无需关心具体对象的实例化过程，只需向工厂类请求所需的对象即可，增强了代码的灵活性和可维护性。
+*/
+
 #include<iostream>
 #include<stdexcept>
 class Operation{
