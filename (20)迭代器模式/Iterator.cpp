@@ -1,5 +1,12 @@
 #include<iostream>
 #include<vector>
+
+/*
+迭代器模式是一种行为型设计模式，
+它提供一种方法来顺序访问一个聚合对象中的元素，
+而不需要暴露该对象的内部结构。这简化了遍历集合的过程。
+
+*/
 class Iterator{
 public:
     virtual int First()=0;

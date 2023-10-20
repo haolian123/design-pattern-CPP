@@ -1,5 +1,11 @@
 #include<iostream>
 #include<vector>
+
+/*
+组合模式是一种结构型设计模式，它允许将对象组合成树状结构以表示部分-整体层次结构。
+这使得客户端可以统一对待单个对象和对象组合，而不需要区分它们。
+
+*/
 class Component{
 protected:
     std::string name;

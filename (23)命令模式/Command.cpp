@@ -1,5 +1,13 @@
 #include<iostream>
 
+/*
+
+命令模式是一种行为型设计模式，它将请求封装为对象，
+以便可以参数化客户端对象，排队请求，将请求记录到日志中，
+支持可撤销操作等。
+
+*/
+
 class Receiver{
 public:
     void Action(){
